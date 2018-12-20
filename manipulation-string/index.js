@@ -32,3 +32,12 @@ console.log("This My Name, and I use concatination : " + name)
 console.log("I use upper hire : ", upper)
 console.log("I use lowe hire", lower)
 console.log(toTitleCase(name))
+
+//Additional
+var myStrA = "<a href=\"http://www.example.com\" target=\"_blank\">Link</a>";
+var myStrB = '<a href="http://www.example.com" target="_blank">Link</a>';
+var myStrC = `<a href="http://www.example.com" target="_blank">Link</a>`
+
+console.log(myStrA)
+console.log(myStrB)
+console.log(myStrC)
